@@ -1,0 +1,204 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/*?----------------- Блок 1 -------------------*/
+.our-promise {
+	background: #F5F5F5;
+	/* разделение блоков */
+	margin-bottom: 100px;
+}
+.our-promise__container {
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+.our-promise__titles {
+	margin: 0px 0px 68px 0px;
+}
+.titles__subtitle {
+	position: relative;
+	margin: 0px 0px 33px 0px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	color: #5D62B5;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 33px;
+}
+.titles__subtitle::before {
+	content: "";
+	position: absolute;
+	background: url("../img/Mark_1.svg") 0 -3px no-repeat;
+	width: 17px;
+	height: 16px;
+	left: 0;
+}
+.titles__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+.our-promise__flex-columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+	row-gap: 24px;
+}
+.our-promise__column {
+	flex: 0 0 324px;
+	margin: 0px 12px;
+}
+.column__title {
+	color: #F2726F;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	margin: 4px 3px 20px 86px;
+}
+.column__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 2px 1px 86px;
+}
+.our-promise__column:nth-child(1)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_love_24x.svg") 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+}
+.our-promise__column:nth-child(2)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_vet_24x.svg") 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+}
+.our-promise__column:nth-child(3)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_stream_24x.svg") 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+}
+/*?----------------- Блок 2 -------------------*/
+.impact {
+	background: #29C3BE;
+	color: #FFFFFF;
+	padding: 20px;
+	position: relative;
+}
+.impact::before {
+	content: "";
+	position: absolute;
+	background: url("../img/Blob.svg") no-repeat;
+	width: 700px;
+	height: 300px;
+	left: 660px;
+	top: 0;
+}
+.impact__container {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.impact__titles {
+	margin: 112px 0px 79px 0px;
+	max-width: 411px;
+}
+.titles__subtitle-white {
+	position: relative;
+	margin: 0px 0px 31.77px 0px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 33px;
+}
+.titles__subtitle-white::before {
+	content: "";
+	position: absolute;
+	background: url("../img/Mark_2.svg") 0 -3px no-repeat;
+	width: 17px;
+	height: 16px;
+	left: 0;
+}
+.titles__title-white {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+.impact__image {
+	position: absolute;
+	left: 762px;
+	top: -80px;
+}
+.impact__picture {
+	width: 498px;
+	height: 315px;
+	border-radius: 40px;
+}
+.impact__flex-columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px 212px -12px;
+	row-gap: 24px;
+}
+.impact__column {
+	flex: 0 0 237px;
+	margin: 0px 12px;
+}
+.impact__number {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 4px 0px 3px 87px;
+}
+.impact__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+	margin: 0px 0px 1px 88px;
+}
+.impact__column:nth-child(1)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_duckling_24x.svg") 0 0 no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.impact__column:nth-child(2)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_house_24px.svg") 0 0 no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.impact__column:nth-child(3)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_leash_24x.svg") 0 0 no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.impact__column:nth-child(4)::before {
+	content: "";
+	position: absolute;
+	background: url("../img/dog_food_bowl_24x.svg") 0 0 no-repeat;
+	width: 76px;
+	height: 76px;
+}
